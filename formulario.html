@@ -1,0 +1,124 @@
+<script language='JavaScript'>
+    function mascara_cpf() {
+        var cpf = document.getElementById('cpf')
+        if(cpf.value.length == 3 || cpf.value.length == 7){
+            cpf.value += "."
+        }  else if(cpf.value.length == 11){
+            cpf.value += "-"
+        }
+        
+    
+    }
+</script>
+
+<script language='JavaScript'>
+   function SomenteNumero(e){
+       var tecla=(window.event)?event.keyCode:e.which;   
+       if((tecla>47 && tecla<58)) return true;
+       else{
+           if (tecla==8 || tecla==0) return true;
+       else  return false;
+       }
+   }
+   </script>
+
+   
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css"
+    <title></title>
+</head>
+<body>
+    <div class="campo">
+         <h1 id=titulo>Cadastro de Usuário</h1>
+         <p id=subtitulo>Complete suas informações</p>
+         <br>
+
+    </div>
+
+    <form>
+     <fieldset class=grupo>
+         <div class="campo">
+           <label for="nome"><strong>Nome</strong></label>
+           <input type="text" name="nome" id=nome required>
+
+         </div>
+
+         <div class="campo">
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="Sobrenome" id=sobrenome required> 
+
+         </div>
+               
+     </fieldset>
+     <div class="campo">
+        <label for="cpf">CPF</label>
+        <form action=index.php method="post">
+        <input type=text name=cpf id=cpf placeholder="000.000.000-00" maxlength="14" onkeyup="mascara_cpf()" onkeypress='return SomenteNumero(event)' autocomplete="off" required> 
+        </form>
+    </div>
+
+     <div class="campo">
+         <label for="data">Data</label>
+         <input onkeypress='return SomenteNumero(event)'
+                type="text"
+                name="date"
+                id=date
+                placeholder="dd/mm/yyyy"
+                onkeyup="
+                var v = this.value;
+             if (v.match(/^\d{2}$/) !== null) {
+               this.value = v + '/';
+           } else if (v.match(/^\d{2}\/\d{2}$/) !== null) {
+               this.value = v + '/';
+           }"
+           maxlength="10"
+>
+     </div>
+      <fieldset class="grupo">
+     <div class="campo">
+         <p><strong>Endereço</strong></p>
+         <label for="cep">CEP</label>
+         <input type="text" name="CEP" id=cep required maxlength="8" onkeypress='return SomenteNumero(event)'>
+
+     </div>
+     <div class="campo">
+         <label for="bairro">Bairro</label>
+         <input type="text" name="Bairro" id=bairro required>
+     </div>
+
+     <div class="campo">
+         <label for="uf">UF</label>
+         <input type="text" name="uf" id=uf required>
+     </div>
+     <div class="campo">
+         <label for="cidade">Cidade</label>
+         <input type="text" name="cidade" id=cidade required>
+
+     </div>
+      </fieldset>
+      <form>
+     <div class="campo">
+         <label for="sexo">Sexo</label>
+         <label>
+             <input type="radio" name="sexo" value="masc" checked> Masculino            
+         </label>
+         <label>
+             <input type="radio" name="sexo" value="fem"> Feminino
+         </label>
+     </div>
+
+  
+  <INPUT class="botao" type="submit" name="b1" value="Enviar">
+  
+  </form>
+   
+</body>
+
+</html>
