@@ -24,8 +24,8 @@ id_servico int primary key identity(1,1),
 nome_servico varchar(100),
 descricao varchar(100));
 
-insert into tb_servico values('IMC', 'Índice de Massa Corporal',);
-insert into tb_servico values('Sono', 'Monitoramento de Sono',);
+insert into tb_servico values('IMC', 'Índice de Massa Corporal');
+insert into tb_servico values('Sono', 'Monitoramento de Sono');
 
 
 create table tb_usuario_servico(
