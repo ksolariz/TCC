@@ -55,7 +55,11 @@ insert into tb_usuario_servico values(2,1,'66','1.83','22',GETDATE(),'','');
 
 SELECT        
 tb_usuario.nome_usuario,
+tb_usuario.sobrenome_usuario,
+tb_usuario.data_Nascimento,
 tb_usuario.email, 
+tb_usuario.data_Nascimento,
+tb_usuario.sexo,
 tb_servico.nome_servico, 
 tb_servico.descricao, 
 tb_usuario_servico.peso, 
