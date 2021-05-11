@@ -14,7 +14,16 @@ check(sexo in ('M','F'))
 )
 
 insert into tb_usuario values('João ','Victor','joao@gmail.com','26/01/2004','M');
-insert into tb_usuario values('Kaue ','Soares','kauesoares@gmail.com','01/01/2001','M');
+insert into tb_usuario values('Kaue ','Soares','kauesoares@gmail.com','21/11/2003','M');
+insert into tb_usuario values('Lara ','Pilli','Lara@hotmail.com','24/06/2003','F');
+insert into tb_usuario values('Luiza ','Silva','luizasilva@outlook.com','01/01/2006','F');
+insert into tb_usuario values('Vinicius ','Nogueira','nog139@aol.com','08/05/2003','M');
+insert into tb_usuario values('Arthur','Campos','thursc@outlook.com','21/03/2004','M');
+insert into tb_usuario values('Josefa','Luz','donajosefa@outlook.com','30/04/1978','F');
+insert into tb_usuario values('Ivan ','Lucas','ivan@bol.com','11/12/2009','M');
+insert into tb_usuario values('Paula','Abrel','paulinhabolos@outlook.com','27/08/1999','F');
+insert into tb_usuario values('Julia ','Jane','comercialjane@gmail.com','09/10/2000','F');
+insert into tb_usuario values('Pedro ','Machado','poetapedro@outlook.com','08/07/1988','M');
 
 select * from tb_usuario
 
