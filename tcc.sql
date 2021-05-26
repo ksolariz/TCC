@@ -17,31 +17,31 @@ check(sexo in ('M','F'))
 
 )
 
-insert into tb_usuario values('João ','Victor','joaosantoo@aol.com','26/01/2004','M');
-insert into tb_usuario values('Kaue ','Soares','kauesoares@gmail.com','01/01/2001','M');
-insert into tb_usuario values('Lara ','Pilli','Lara@hotmail.com','24/06/2003','F');
-insert into tb_usuario values('Luiza ','Silva','luizasilva@outlook.com','01/01/2006','F');
-insert into tb_usuario values('Vinicius ','Nogueira','nog139@aol.com','08/05/2003','M');
-insert into tb_usuario values('Arthur','Campos','thursc@outlook.com','21/03/2004','M');
-insert into tb_usuario values('Josefa','Luz','donajosefa@outlook.com','30/04/1978','F');
-insert into tb_usuario values('Ivan ','Lucas','ivan@bol.com','11/12/2009','M');
-insert into tb_usuario values('Paula','Abrel','paulinhabolos@outlook.com','27/08/1999','F');
-insert into tb_usuario values('Julia ','Jane','comercialjane@gmail.com','09/10/2000','F');
-insert into tb_usuario values('Pedro ','Machado','poetapedro@outlook.com','08/07/1988','M');
-insert into tb_usuario values('Paula','Abrel','paulinhabolos@outlook.com','27/08/1999','F');
-insert into tb_usuario values('Julia ','Jane','comercialjane@gmail.com','09/10/2000','F');
-insert into tb_usuario values('Pedro ','Machado','poetapedro@outlook.com','08/07/1988','M');
-insert into tb_usuario values('Marcos','Gabriel','marcosgbr@gmail.com','29/11/2002','M');
-insert into tb_usuario values('Maria ','Socorro','mariasocorro@outlook.com','05/06/1992','F');
-insert into tb_usuario values('Gustavo ','Farias','gustavofarias2003@gmail.com','08/02/2003','M');
-insert into tb_usuario values('Leticia','Costa','leticiacosta@hotmail.com','07/09/2008','F');
-insert into tb_usuario values('Carlos ','Manoel','carmanoel@aol.com','17/12/2002','M');
-insert into tb_usuario values('Flavio','Rodrigues','flaviorodri@outlook.com','21/03/1969','M');
-insert into tb_usuario values('Carla ','Perez','CarlaPerez@outlook.com','12/05/1998','F');
-insert into tb_usuario values('Fernando ','Toledo','toledo@bol.com','18/03/2004','M');
-insert into tb_usuario values('Rafaela','Santos','rafasantos@outlook.com','04/07/1984','F');
-insert into tb_usuario values('Ana ','Paula','anapaula@gmail.com','15/11/1991','F');
-insert into tb_usuario values('Eduardo','Gonçalves','edugonçalves@outlook.com','25/01/1947','M');
+insert into tb_usuario values('João ','Victor','joaosantoo@aol.com','26/01/2004','M','senha1234');
+insert into tb_usuario values('Kaue ','Soares','kauesoares@gmail.com','01/01/2001','M','senha1234');
+insert into tb_usuario values('Lara ','Pilli','Lara@hotmail.com','24/06/2003','F','senha1234');
+insert into tb_usuario values('Luiza ','Silva','luizasilva@outlook.com','01/01/2006','F','senha1234');
+insert into tb_usuario values('Vinicius ','Nogueira','nog139@aol.com','08/05/2003','M','senha1234');
+insert into tb_usuario values('Arthur','Campos','thursc@outlook.com','21/03/2004','M','senha1234');
+insert into tb_usuario values('Josefa','Luz','donajosefa@outlook.com','30/04/1978','F','senha1234');
+insert into tb_usuario values('Ivan ','Lucas','ivan@bol.com','11/12/2009','M','senha1234');
+insert into tb_usuario values('Paula','Abrel','paulinhabolos@outlook.com','27/08/1999','F','senha1234');
+insert into tb_usuario values('Julia ','Jane','comercialjane@gmail.com','09/10/2000','F','senha1234');
+insert into tb_usuario values('Pedro ','Machado','poetapedro@outlook.com','08/07/1988','M','senha1234');
+insert into tb_usuario values('Paula','Abrel','paulinhabolos@outlook.com','27/08/1999','F','senha1234');
+insert into tb_usuario values('Julia ','Jane','comercialjane@gmail.com','09/10/2000','F','senha1234');
+insert into tb_usuario values('Pedro ','Machado','poetapedro@outlook.com','08/07/1988','M','senha1234');
+insert into tb_usuario values('Marcos','Gabriel','marcosgbr@gmail.com','29/11/2002','M','senha1234');
+insert into tb_usuario values('Maria ','Socorro','mariasocorro@outlook.com','05/06/1992','F','senha1234');
+insert into tb_usuario values('Gustavo ','Farias','gustavofarias2003@gmail.com','08/02/2003','M','senha1234');
+insert into tb_usuario values('Leticia','Costa','leticiacosta@hotmail.com','07/09/2008','F','senha1234');
+insert into tb_usuario values('Carlos ','Manoel','carmanoel@aol.com','17/12/2002','M','senha1234');
+insert into tb_usuario values('Flavio','Rodrigues','flaviorodri@outlook.com','21/03/1969','M','senha1234');
+insert into tb_usuario values('Carla ','Perez','CarlaPerez@outlook.com','12/05/1998','F','senha1234');
+insert into tb_usuario values('Fernando ','Toledo','toledo@bol.com','18/03/2004','M','senha1234');
+insert into tb_usuario values('Rafaela','Santos','rafasantos@outlook.com','04/07/1984','F','senha1234');
+insert into tb_usuario values('Ana ','Paula','anapaula@gmail.com','15/11/1991','F','senha1234');
+insert into tb_usuario values('Eduardo','Gonçalves','edugonçalves@outlook.com','25/01/1947','M','senha1234');
 
 
 --CONSULTA A TABELA DE USUARIOS
