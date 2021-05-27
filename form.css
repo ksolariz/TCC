@@ -115,44 +115,6 @@ button:hover {
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-}
-
-.footer span {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 0.8rem;
-    text-align: center;
-}
-
-.footer .social-field {
-    padding: 0.4rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    width: 100%;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-.footer .social-field a i {
-    margin: 0 0.5rem;
-    width: 15px;
-}
-
-.footer .social-field a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer .social-field.twitter {
-    background: linear-gradient(to right, #56a7f2, #468aca);
-}
-
-.footer .social-field.facebook {
-    background: linear-gradient(to right, #1e3c72, #2a5298);
-}
 
 /* Estilização das mensagens de erro do email */
 input[type="text"], input[type="email"]{
