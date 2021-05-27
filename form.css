@@ -7,16 +7,19 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
     background-repeat: no-repeat;
+    overflow: hidden; 
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
     align-items: center;
+    margin:0px;
+    padding:0px;
     justify-content: center;
 }
 
@@ -139,3 +142,84 @@ input[type="text"], input[type="email"]{
   span{
     color: crimson;
   }
+
+  /*alteraçoes do joao*/
+  /*segue o logo 2 que vai disponibilizar acesso a pagina "about"*/
+
+  .logo2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    justify-content: right;
+    align-content: right;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    align-items: right;
+}
+
+.a1{
+    justify-content: right;
+    align-content: right;
+    text-align: right;
+    color: #000000;
+    display: block;
+    margin-left: auto;
+    align-items: right;
+    transition: transform .1s;
+}
+
+header {
+    height:182px;
+    display: flex;
+    
+}
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+    transition: transform .1s;
+    transition-delay: 250ms;
+  }
+
+.h1:hover {
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.p{
+  font-family: 'Raleway', sans-serif;
+ }
+
+ .logo {
+    width: 20px;
+    height: 22px;
+    margin-top: 12px;
+    color:#000000;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.a2{
+    height: 65px;
+    width: 105px;
+    background-color: #4d7fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 1px;
+    border-color: #1b1b1c;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    transition: transform .1s;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: inline-block;
+}
+
+.a2:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
