@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -145,3 +145,43 @@ button:hover {
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
 
+
+/* Modificações joao */
+
+.bra{
+    display: block;
+    margin-bottom: 2px;
+    font-size:2px;
+    line-height: 3px;
+}
+
+.container2{
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 650px;
+    max-width: 100%;
+}
+
+#content2{
+    display:flex;
+
+
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  scroll-behavior: smooth;
+  border: 1px;
+  border: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 50px auto;
+  justify-content: center;
+  text-indent: 40px;
+  align-content: center;
+  text-align: left;
+}
+
+.fontBox{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
