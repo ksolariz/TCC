@@ -40,8 +40,11 @@
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    </style>
    
-    <title>Cadastro</title>
+    <title>Cadastro - Fitable</title>
   </head>
   <body>
 
